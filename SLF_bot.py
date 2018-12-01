@@ -59,7 +59,7 @@ def qr(message):
     res = requests.post(url, {'fileurl': p})
     x = res.json()[0]['symbol'][0]['data']
     print (x)
-    if x == AlexWasHere
+    if x == "AlexWasHere"
     bot.send_message(user, "https://github.com/HungerPro/SLF_bot", reply_markup=get_keyboard())
     
 # реагируем на команду /help
